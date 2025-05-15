@@ -26,6 +26,11 @@ body {
     top: 0;
     z-index: 10;
   }
+  body.dark-mode #controls {
+    background-color: #1e293b; 
+    border: 1px solid #374151;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+  }
   
   #controls label {
     font-weight: 600;
